@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'JejuMyeong';
+  src: url('/public/fonts/JejuMyeongjo-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  background: #02191D;
+  width: 100%;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.font-JejuMyeong {
+  font-family: 'JejuMyeong', sans-serif;
+}
+.font-Roboto{
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+}
+.font-Robotobold{
+  font-family: 'Roboto', serif;
+  font-weight: 600;
+}
+.font-Robotobolder{
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+}
+.font-RoadRage{
+  font-family: 'Road Rage';
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+.custom-gradient{
+  background: linear-gradient(0deg, rgba(10, 12, 17, 0.1), rgba(10, 12, 17, 0.1)),
+              radial-gradient(103.64% 57.39% at 14.02% 32.06%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%);
+}
+
+.ticket-gradient{
+  background-image: url('./assets/ticket-bg.svg');
+  background-position: center;
+  background-size: cover;
+
+}
