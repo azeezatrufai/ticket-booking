@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
   font-family: 'JejuMyeong';
-  src: url('/public/fonts/JejuMyeongjo-Regular.ttf') format('truetype');
+  src: url('/fonts/JejuMyeongjo-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }

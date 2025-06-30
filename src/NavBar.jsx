@@ -7,9 +7,9 @@ export default function NavBar() {
  const navigate = useNavigate();
 
   return (
-    <div className='flex justify-center'>
+    <div  className='flex justify-center'>
     <div className=' flex  items-center justify-between w-full  max-w-[320px]   h-[68px] md:h-[76px]  mx-auto md:max-w-[1200px] fixed bg-[rgba(5, 37, 44, 0.4)] py-3 px-4  border border-[#197686] backdrop-blur-[4px]  rounded-[12px] md:rounded-[24px]  m-4  z-50'>
-    <img src="Frame 1618871078.png" alt="Logo" />
+    <img onClick={() => navigate('/')} src="Frame 1618871078.png" alt="Logo" />
     
    { /** Hidden on Small Screens  */ }
     <ul className='hidden md:flex items-center' >
